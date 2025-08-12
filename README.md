@@ -28,4 +28,4 @@ This project is built by **INSA summer camp cybersecurity department Group-17** 
 
 ## Architecture
 ```plaintext
-Browser → WAF Layer → Web Server → Application → Database
+Browser → Web Server → WAF Layer → Application → Database
