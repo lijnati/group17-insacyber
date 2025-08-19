@@ -18,16 +18,6 @@ This ensures secure, private, and decentralized communication—ideal for messag
 ✅ Future: **end-to-end encryption (E2EE)** with key exchange  
 
 
-## Architecture
-
-```mermaid
-flowchart TD
-    A[Peer 1 (React + MetaMask)] <--WebRTC DataChannel--> B[Peer 2 (React + MetaMask)]
-    A <--Offer/Answer/ICE--> S[Signaling Server (WebSocket)]
-    B <--Offer/Answer/ICE--> S
-    C[Smart Contract (Ethereum)] --> A
-    C --> B
-```
 
 ## 👥 Team
 
